@@ -43,11 +43,12 @@ instances:
     #   - ".*"
     #
     # include all, except ubuntu and debian.
-    # include: []
+    # include: ".*"
     # exclude:
     #   - "docker_image:ubuntu"
     #   - "docker_image:debian"
     #
+    # defaults:
     # include: []
     # exclude: []
 
